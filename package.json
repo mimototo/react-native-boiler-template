@@ -10,7 +10,8 @@
     "lint": "biome check",
     "format": "biome format --write",
     "format:unsafe": "biome format --write --unsafe",
-    "type": "tsc --noEmit"
+    "type": "tsc --noEmit",
+    "prepare": "husky"
   },
   "dependencies": {
     "@expo/metro-runtime": "~5.0.4",
