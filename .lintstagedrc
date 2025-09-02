@@ -1,3 +1,8 @@
 {
-  "**/*.{ts,tsx,js,jsx,cjs,mjs,md,json}": ["biome check --write", "biome format --write"]
+  "**/*.{ts,tsx,js,jsx,cjs,mjs}": [
+    "biome check --write",
+    "biome format --write"
+  ],
+  "**/*.json": ["biome format --write"],
+  "**/*.md": ["prettier --write"]
 }
